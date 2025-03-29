@@ -20,7 +20,7 @@ redirect_from:
 # 🎓 About Me
 During my undergraduate studies, I spent one semester as an exchange student at <img src="../images/ucb.png" width="16" style="vertical-align: right;"/> the University of California, Berkeley, and participated in the AI Summer School at <img src="../images/wlu.png" width="16" style="vertical-align: right;"/> Westlake University.
 
-My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software Engineering (AI4SE), and Human-Computer Interaction. I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. 
+My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software Engineering (AI4SE), and Human-Computer Interaction. I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
 
 
 # 🔥 News
