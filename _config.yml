@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title: "Xinkai Zou (邹昕恺)"
-description: ""
+title: "Xinkai Zou (邹昕恺) Tongji University"
+# description: "Personal Website for Xinkai Zou from Tongji University"
 repository: "jayzou3773/jayzou3773.github.io"
 google_scholar_stats_use_cdn: false
 
