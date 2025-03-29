@@ -17,11 +17,21 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem 'csv'
+gem 'logger'
+gem 'base64'
+gem 'bigdecimal'
+gem 'json'
+gem 'nokogiri'
+gem 'mini_portile2'
+gem 'racc'
+
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem 'jekyll-livereload'
+  # gem 'hawkins'
 end
