@@ -20,10 +20,14 @@ redirect_from:
 # 🎓 About Me
 I am a fourth-year undergraduate student at <img src="../images/tongji.png" width="16" style="vertical-align: right;"/> Tongji University. During my undergraduate studies, I spent one semester as an exchange student at <img src="../images/ucb.png" width="16" style="vertical-align: right;"/> the University of California, Berkeley, and participated in the AI Summer School at <img src="../images/wlu.png" width="16" style="vertical-align: right;"/> [Westlake University](https://en-soe.westlake.edu.cn/NewsEvents/latestnews/202411/t20241111_45448.shtml).
 
+**Incoming graduate student with Master of Science in Computer Science in UC, San Diego** <img src="../images/ucsd.png" width="16" style="vertical-align: right;"/> **(27Fall)**
+
 My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software Engineering (AI4SE), and Human-Computer Interaction. I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🔥🔥 My first co-authored paper with [Peiran Li](https://scholar.google.com/citations?user=AbleBdQAAAAJ&hl=en) under supervision of [Prof. Zhengzhong Tu](https://vztu.github.io/) is on Arxiv, [SAFEFLOW: A Principled Protocol for Trustworthy and Transactional Autonomous Agent Systems](https://www.arxiv.org/abs/2506.07564)
+- *2025.05*: &nbsp;🔥🔥 Successfully defended undergraduate thesis titled "Research and Application of a Multi-Agent-Based Agile Requirements Elicitation Methodology"(基于多智能体的敏捷需求诱导方法研究与应用) with a perfect score (5/5)
 - *2025.03*: &nbsp;🔥🔥 My first paper as a first author is on Arxiv, [Goal2Story: A Multi-Agent Fleet based on Privately Enabled sLLMs for Impacting Mapping on Requirements Elicitation](https://arxiv.org/abs/2503.13279). 
 - *2024.12*: &nbsp;🎉🎉 Happy to join the AGI Lab, Westlake University as a visiting student, under supervision of [Prof.Chi Zhang](https://icoz69.github.io/).
 - *2024.05*: &nbsp;🎉🎉 Happy to join the Future Lab, Tsinghua University as a research assistant, collaborating with [Jiachen Du](https://www.milab.design/team-2/du-jiachen).
@@ -31,7 +35,20 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/safeflow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[SAFEFLOW: A Principled Protocol for Trustworthy and Transactional Autonomous Agent Systems](https://www.arxiv.org/abs/2506.07564)
+
+Peiran Li<sup>*</sup>, **Xinkai Zou**<sup>*</sup>, Zhuohang Wu, Ruifeng Li, Shuo Xing, Hanwen Zheng, Zhikai Hu, Yuping Wang, Haoxi Li, Qin Yuan, Yingmo Zhang, Zhengzhong Tu
+
+*<sup>*</sup>Equal contribution*
+
+[**Paper**](https://www.arxiv.org/abs/2506.07564) [**Code**] [**Dataset**](https://huggingface.co/datasets/jayzou3773/SafeFlowBench) 
+- SafeFLow: principled protocol-level framework explicitly designed to build secure, reliable, and trustworthy LLM/VLM-based autonomous agents
+- SafeFlowBench:  the first-of-its-kind benchmark specifically designed to evaluate VLM-based agent safety in GUI-based environments
+</div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/goal2story.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -39,8 +56,9 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 **Xinkai Zou**, Yan Liu, Xiongbo Shi, Chen Yang
 
-[**Project**](https://github.com/SoftACE-Lab/goal2story) [**Dataset**](https://huggingface.co/datasets/SoftACE/StorySeek) 
-- Goal-driven requirements elicitation with only adopting sLLMs. 
+[**Paper**](https://arxiv.org/abs/2503.13279) [**Code**](https://github.com/SoftACE-Lab/goal2story) [**Dataset**](https://huggingface.co/datasets/SoftACE/StorySeek) 
+- Goal2Story: first work to realize goal-driven requirements elicitation via LLM-based agents
+- StorySeek: first dataset constructed specifically for goal-driven requirements elicitation with other potential information
 </div>
 </div>
 
