@@ -26,10 +26,10 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 
 # 🔥 News
+- *2025.07*: &nbsp;🎓🎓 Graduated from Tongji University! Thanks for all!
 - *2025.06*: &nbsp;🔥🔥 My first co-authored paper with [Peiran Li](https://scholar.google.com/citations?user=AbleBdQAAAAJ&hl=en) under supervision of [Prof. Zhengzhong Tu](https://vztu.github.io/) is on Arxiv, [SAFEFLOW: A Principled Protocol for Trustworthy and Transactional Autonomous Agent Systems](https://www.arxiv.org/abs/2506.07564)
 - *2025.05*: &nbsp;🔥🔥 Successfully defended undergraduate thesis titled "Research and Application of a Multi-Agent-Based Agile Requirements Elicitation Methodology"(基于多智能体的敏捷需求诱导方法研究与应用) with a perfect score (5/5)
 - *2025.03*: &nbsp;🔥🔥 My first paper as a first author is on Arxiv, [Goal2Story: A Multi-Agent Fleet based on Privately Enabled sLLMs for Impacting Mapping on Requirements Elicitation](https://arxiv.org/abs/2503.13279). 
-- *2024.12*: &nbsp;🎉🎉 Happy to join the AGI Lab, Westlake University as a visiting student, under supervision of [Prof.Chi Zhang](https://icoz69.github.io/).
 - *2024.05*: &nbsp;🎉🎉 Happy to join the Future Lab, Tsinghua University as a research assistant, collaborating with [Jiachen Du](https://www.milab.design/team-2/du-jiachen).
 - *2023.12*: &nbsp;🎉🎉 Happy to join the Tongji-MIT City Science Lab as a research assistant and developer, collaborating with [Chance Jiajie Li](https://www.media.mit.edu/people/jiajie/overview/).
 
