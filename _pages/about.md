@@ -26,6 +26,7 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 
 # 🔥 News
+- *2025.08*: &nbsp;🔥🔥 My paper with [Dr. Xuan Jiang](https://xuan-1998.github.io/) under supervision of [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/) is on Arxiv, [CloudAnoAgent: Anomaly Detection for Cloud Sites via LLM Agent with Neuro-Symbolic Mechanism](https://arxiv.org/abs/2508.01844) <img src="../images/mit-logo.png" width="60" style="vertical-align: right;"/>
 - *2025.07*: &nbsp;🎓🎓 Graduated from Tongji University! Thanks for all!
 - *2025.06*: &nbsp;🔥🔥 My first co-authored paper with [Peiran Li](https://scholar.google.com/citations?user=AbleBdQAAAAJ&hl=en) under supervision of [Prof. Zhengzhong Tu](https://vztu.github.io/) is on Arxiv, [SAFEFLOW: A Principled Protocol for Trustworthy and Transactional Autonomous Agent Systems](https://www.arxiv.org/abs/2506.07564)
 - *2025.05*: &nbsp;🔥🔥 Successfully defended undergraduate thesis titled "Research and Application of a Multi-Agent-Based Agile Requirements Elicitation Methodology"(基于多智能体的敏捷需求诱导方法研究与应用) with a perfect score (5/5)
@@ -35,6 +36,19 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/cloudanoagent.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CloudAnoAgent: Anomaly Detection for Cloud Sites via LLM Agent with Neuro-Symbolic Mechanism](https://arxiv.org/abs/2508.01844)
+
+**Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Jiahua Zhao
+
+[**Paper**](https://arxiv.org/abs/2508.01844) 
+- CloudAnoAgent: first LLM-agent system for anomaly detection on cloud sites
+- CloudAnoBench: first multimodal anomaly detection benchmark on cloud sites with timeseries metrics data and log text data
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/safeflow.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -49,6 +63,7 @@ Peiran Li<sup>*</sup>, **Xinkai Zou**<sup>*</sup>, Zhuohang Wu, Ruifeng Li, Shuo
 - SafeFlowBench:  the first-of-its-kind benchmark specifically designed to evaluate VLM-based agent safety in GUI-based environments
 </div>
 </div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/goal2story.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -93,7 +108,7 @@ Collaboration with Chance Jiajie Li, Ruyi Yang, Zhenze Mo, etc.
 
 This paper introduces an AI-augmented design copilot that enhances conceptual abstraction by leveraging extensive datasets, advanced annotation using GPT-4V, and custom generative models, all seamlessly integrated to provide three key functions: an architectural search engine, bidirectional object-based architectural analysis, and an architectural design generator, creating a powerful tool for architectural inspiration.
 
-Collaboration with Ruyi Yang.
+Collaboration with [Ruyi Yang](https://www.ruyiyang.com/).
 </div>
 </div>
 
@@ -107,7 +122,7 @@ This project is a platform for BCG employees, consultants and clients to use pri
 </div>
 </div>
 
-# 💻 Internships
+# 💻 Work Experience
 - *2023.12 - 2024.05*, **Data Engineer Intern** (Under supervision of Tianyu Shi, world's no.1 mentor),<img src="../images/tesla.png" width="20" style="vertical-align: right;"/> Tesla (Shanghai Gigafactory), China.
 - *2023.07 - 2023.09*, **Software Development Engineer Intern**, <img src="../images/zjport.jpg" width="16" style="vertical-align: right;"/> Zhejiang Smart Port Technology Co., Ltd., China.
 
