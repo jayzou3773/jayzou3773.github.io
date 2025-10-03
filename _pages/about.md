@@ -39,13 +39,13 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/cloudanoagent.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[CloudAnoAgent: Anomaly Detection for Cloud Sites via LLM Agent with Neuro-Symbolic Mechanism](https://arxiv.org/abs/2508.01844)
+[Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments](https://arxiv.org/abs/2508.01844)
 
-**Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Jiahua Zhao
+**Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Hongrui Wu, Yibo Wang, Jian Sha, Xiongbo Shi, Zixun Huang, Jiahua Zhao
 
 [**Project Page**](https://jayzou3773.github.io/cloudanobench-agent/) [**Paper**](https://arxiv.org/abs/2508.01844) [**Dataset**](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)
-- CloudAnoAgent: first LLM-agent system for anomaly detection on cloud sites
-- CloudAnoBench: first multimodal anomaly detection benchmark on cloud sites with timeseries metrics data and log text data
+- CloudAnoBench: A large-scale benchmark that provides labeled context anomalies in cloud environments by integrating metrics and logs.
+- CloudAnoAgent: An LLM-based agent system with symbolic verification that jointly analyzes metrics and logs for robust context-aware anomaly detection.
 </div>
 </div>
 
