@@ -36,12 +36,12 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/cloudanoagent.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/website_poster.jpg' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments](https://arxiv.org/abs/2508.01844)
 
-**Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Hongrui Wu, Yibo Wang, Jian Sha, Xiongbo Shi, Zixun Huang, Jiahua Zhao
+**Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Hongrui Wu, Yibo Wang, Jian Sha, Xiongbo Shi, Zixun Huang, Jinhua Zhao
 
 [**Project Page**](https://jayzou3773.github.io/cloudanobench-agent/) [**Paper**](https://arxiv.org/abs/2508.01844) [**Dataset**](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)
 - CloudAnoBench: A large-scale benchmark that provides labeled context anomalies in cloud environments by integrating metrics and logs.
