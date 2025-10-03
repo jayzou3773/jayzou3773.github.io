@@ -43,7 +43,7 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 
 **Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Jiahua Zhao
 
-[**Project Page**](https://jayzou3773.github.io/cloudanobench-agent/)[**Paper**](https://arxiv.org/abs/2508.01844) [**Dataset**](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)
+[**Project Page**](https://jayzou3773.github.io/cloudanobench-agent/) [**Paper**](https://arxiv.org/abs/2508.01844) [**Dataset**](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)
 - CloudAnoAgent: first LLM-agent system for anomaly detection on cloud sites
 - CloudAnoBench: first multimodal anomaly detection benchmark on cloud sites with timeseries metrics data and log text data
 </div>
