@@ -18,14 +18,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 About Me
-I am a fourth-year undergraduate student at <img src="../images/tongji.png" width="16" style="vertical-align: right;"/> Tongji University. During my undergraduate studies, I spent one semester as an exchange student at <img src="../images/ucb.png" width="16" style="vertical-align: right;"/> the University of California, Berkeley, and participated in the AI Summer School at <img src="../images/wlu.png" width="16" style="vertical-align: right;"/> [Westlake University](https://en-soe.westlake.edu.cn/NewsEvents/latestnews/202411/t20241111_45448.shtml).
+I am a first-year master student with Master of Science in Computer Science in UC, San Diego <img src="../images/ucsd.png" width="16" style="vertical-align: right;"/>. Previously, I graduated with B.Eng in Software Engieering at <img src="../images/tongji.png" width="16" style="vertical-align: right;"/> Tongji University. During my undergraduate studies, I spent one semester as an exchange student at <img src="../images/ucb.png" width="16" style="vertical-align: right;"/> the University of California, Berkeley, and participated in the AI Summer School at <img src="../images/wlu.png" width="16" style="vertical-align: right;"/> Westlake University.
 
-**Incoming graduate student with Master of Science in Computer Science in UC, San Diego** <img src="../images/ucsd.png" width="16" style="vertical-align: right;"/> **(27Fall)**
-
-My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software Engineering (AI4SE), and Human-Computer Interaction. I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
+My research interests are AI Agent, LLM Post-training, AI for Software Engineering (AI4SE), and Human-Computer Interaction. I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
 
 
 # 🔥 News
+- *2025.10*: &nbsp;🔥🔥 Had a wonderful time participating in the **MIT–UF–NU 2025 Joint Summer Research Camp**, working with [Dr. Xuan Jiang](https://xuan-1998.github.io/) and [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/) on the paper [*Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments*](https://arxiv.org/abs/2508.01844v2), and had the chance to meet and learn from many inspiring researchers.
+- *2025.09*: &nbsp;🎉🎉 Excited to start my master study at UCSD.
 - *2025.08*: &nbsp;🔥🔥 My paper with [Dr. Xuan Jiang](https://xuan-1998.github.io/) under supervision of [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/) is on Arxiv, [CloudAnoAgent: Anomaly Detection for Cloud Sites via LLM Agent with Neuro-Symbolic Mechanism](https://arxiv.org/abs/2508.01844) <img src="../images/mit-logo.png" width="60" style="vertical-align: right;"/>
 - *2025.07*: &nbsp;🎓🎓 Graduated from Tongji University! Thanks for all!
 - *2025.06*: &nbsp;🔥🔥 My first co-authored paper with [Peiran Li](https://scholar.google.com/citations?user=AbleBdQAAAAJ&hl=en) under supervision of [Prof. Zhengzhong Tu](https://vztu.github.io/) is on Arxiv, [SAFEFLOW: A Principled Protocol for Trustworthy and Transactional Autonomous Agent Systems](https://www.arxiv.org/abs/2506.07564)
@@ -39,11 +39,11 @@ My research interests are AI Agent, Agent Safety, Embodied AI, AI for Software E
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/website_poster.jpg' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments](https://arxiv.org/abs/2508.01844)
+[Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments](https://arxiv.org/abs/2508.01844v2)
 
 **Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Hongrui Wu, Yibo Wang, Jian Sha, Xiongbo Shi, Zixun Huang, Jinhua Zhao
 
-[**Project Page**](https://jayzou3773.github.io/cloudanobench-agent/) [**Paper**](https://arxiv.org/abs/2508.01844) [**Dataset**](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)
+[**Project Page**](https://jayzou3773.github.io/cloudanobench-agent/) [**Paper**](https://arxiv.org/abs/2508.01844v2) [**Dataset**](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)
 - CloudAnoBench: A large-scale benchmark that provides labeled context anomalies in cloud environments by integrating metrics and logs.
 - CloudAnoAgent: An LLM-based agent system with symbolic verification that jointly analyzes metrics and logs for robust context-aware anomaly detection.
 </div>
