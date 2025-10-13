@@ -20,7 +20,7 @@ redirect_from:
 # 🎓 About Me
 I am a first-year master student with Master of Science in Computer Science in UC, San Diego <img src="../images/ucsd.png" width="16" style="vertical-align: right;"/>. Previously, I graduated with B.Eng in Software Engieering at <img src="../images/tongji.png" width="16" style="vertical-align: right;"/> Tongji University. During my undergraduate studies, I spent one semester as an exchange student at <img src="../images/ucb.png" width="16" style="vertical-align: right;"/> the University of California, Berkeley, and participated in the AI Summer School at <img src="../images/wlu.png" width="16" style="vertical-align: right;"/> Westlake University.
 
-My research interests are AI Agent, LLM Post-training, AI for Software Engineering (AI4SE), and Human-Computer Interaction. I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
+My research interests are AI Agent, LLM Post-training, AI for Software Engineering (AI4SE), and Human-Computer Interaction. Previously, I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
 
 
 # 🔥 News
@@ -61,6 +61,42 @@ Peiran Li<sup>*</sup>, **Xinkai Zou**<sup>*</sup>, Zhuohang Wu, Ruifeng Li, Shuo
 [**Paper**](https://www.arxiv.org/abs/2506.07564) [**Code**] [**Dataset**](https://huggingface.co/datasets/jayzou3773/SafeFlowBench) 
 - SafeFLow: principled protocol-level framework explicitly designed to build secure, reliable, and trustworthy LLM/VLM-based autonomous agents
 - SafeFlowBench:  the first-of-its-kind benchmark specifically designed to evaluate VLM-based agent safety in GUI-based environments
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp'25 Poster</div><img src='images/Emotional Support Originating from Dialogue.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Emotional Support Originating from Dialogue: Empowering Older Adults’ Self-Tracking of Sleep-Related Daytime Factors
+
+Jiachen Du, **Xinkai Zou**, Liwen He, Shuzi Yin, Bingjie Gao, Wenjing Deng, Xinyi Fu, Haipeng Mi
+
+- Circadia: A conversational personal informatics system that helps older adults track sleep-related daytime factors through emotionally supportive dialogue.
+- Finding: Dialogue-based emotional support improves motivation, self-awareness, and reflection in self-tracking.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp'25 Poster</div><img src='images/Task Wise.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+TaskWise: Enhancing Cognitive Performance in Task Management through Interactive Detail Enrichment
+
+Jiachen Du, Bingjie Gao, Shuzi Yin, **Xinkai Zou**, Wenjing Deng, Xinyi Fu
+
+- TaskWise: An AI-driven to-do list system that enhances cognitive performance through interactive detail enrichment, using LLMs to generate contextual prompts that help users recall missing details and plan effectively.
+- Finding: AI-generated cues act as cognitive scaffolds that improve task understanding, preparedness, and control, while users maintain agency by selectively adopting relevant suggestions
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSCW'25 Poster</div><img src='images/The Social Dynamics of Voice Cloning.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Social Dynamics of Voice Cloning: Trust, Privacy, and Ethical Tensions When Sharing Your AI Voice Replica](https://programs.sigchi.org/cscw/2025/program/content/212030)
+
+Jiachen Du, Hanyu Huang, **Xinkai Zou**, Shuzi Yin, Bingjie Gao, Xinyi Fu
+
+- Voice Cloning Study: A mixed-methods investigation of Human Voice Cloning Agents (HVCAs) that reveals how sharing AI voice replicas reshapes trust, privacy, and ethics in social interaction.
+- Finding: HVCA sharing fosters intimacy and trust through voice familiarity but also triggers boundary blurring, identity risks, and control dilemmas, underscoring the need for responsible design and regulation
 </div>
 </div>
 
