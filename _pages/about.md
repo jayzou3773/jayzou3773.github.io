@@ -91,7 +91,9 @@ Jiachen Du, Bingjie Gao, Shuzi Yin, **Xinkai Zou**, Wenjing Deng, Xinyi Fu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSCW'25 Poster</div><img src='images/The Social Dynamics of Voice Cloning.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[The Social Dynamics of Voice Cloning: Trust, Privacy, and Ethical Tensions When Sharing Your AI Voice Replica](https://programs.sigchi.org/cscw/2025/program/content/212030)
+[The Social Dynamics of Voice Cloning: Trust, Privacy, and Ethical Tensions When Sharing Your AI Voice Replica](https://dl.acm.org/doi/10.1145/3715070.3749244)
+
+[**Paper**](https://dl.acm.org/doi/10.1145/3715070.3749244)
 
 Jiachen Du, Hanyu Huang, **Xinkai Zou**, Shuzi Yin, Bingjie Gao, Xinyi Fu
 
