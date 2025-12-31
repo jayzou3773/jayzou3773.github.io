@@ -20,13 +20,12 @@ redirect_from:
 # 🎓 About Me
 I am a first-year master student with Master of Science in Computer Science in UC, San Diego <img src="../images/ucsd.png" width="16" style="vertical-align: right;"/>. Previously, I graduated with B.Eng in Software Engieering at <img src="../images/tongji.png" width="16" style="vertical-align: right;"/> Tongji University. During my undergraduate studies, I spent one semester as an exchange student at <img src="../images/ucb.png" width="16" style="vertical-align: right;"/> the University of California, Berkeley, and participated in the AI Summer School at <img src="../images/wlu.png" width="16" style="vertical-align: right;"/> Westlake University.
 
-My research interests are AI Agent, LLM Post-training, AI for Software Engineering (AI4SE), and Human-Computer Interaction. Previously, I was a research assistant at the [SoftACE Lab, Tongji University](https://github.com/SoftACE-Lab), advised by Prof. Yan Liu. Moreover, I am also interested in the intersection of AI and transportation, as I previously studied Civil Engineering for one year at Tongji University.
+My research interests are LLM Post-training, MoE, LLM System, and HCI. 
 
 
 # 🔥 News
 - *2025.10*: &nbsp;🔥🔥 Had a wonderful time participating in the **MIT–UF–NU 2025 Joint Summer Research Camp**, working with [Dr. Xuan Jiang](https://xuan-1998.github.io/) and [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/) on the paper [*Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments*](https://arxiv.org/abs/2508.01844v2), and had the chance to meet and learn from many inspiring researchers.
 - *2025.09*: &nbsp;🎉🎉 Excited to start my master study at UCSD.
-- *2025.08*: &nbsp;🔥🔥 My paper with [Dr. Xuan Jiang](https://xuan-1998.github.io/) under supervision of [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/) is on Arxiv, [CloudAnoAgent: Anomaly Detection for Cloud Sites via LLM Agent with Neuro-Symbolic Mechanism](https://arxiv.org/abs/2508.01844) <img src="../images/mit-logo.png" width="60" style="vertical-align: right;"/>
 - *2025.07*: &nbsp;🎓🎓 Graduated from Tongji University! Thanks for all!
 - *2025.06*: &nbsp;🔥🔥 My first co-authored paper with [Peiran Li](https://scholar.google.com/citations?user=AbleBdQAAAAJ&hl=en) under supervision of [Prof. Zhengzhong Tu](https://vztu.github.io/) is on Arxiv, [SAFEFLOW: A Principled Protocol for Trustworthy and Transactional Autonomous Agent Systems](https://www.arxiv.org/abs/2506.07564)
 - *2025.05*: &nbsp;🔥🔥 Successfully defended undergraduate thesis titled "Research and Application of a Multi-Agent-Based Agile Requirements Elicitation Methodology"(基于多智能体的敏捷需求诱导方法研究与应用) with a perfect score (5/5)
@@ -67,7 +66,7 @@ Peiran Li<sup>*</sup>, **Xinkai Zou**<sup>*</sup>, Zhuohang Wu, Ruifeng Li, Shuo
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp'25 Poster</div><img src='images/Emotional Support Originating from Dialogue.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Emotional Support Originating from Dialogue: Empowering Older Adults’ Self-Tracking of Sleep-Related Daytime Factors
+[Emotional Support Originating from Dialogue: Empowering Older Adults’ Self-Tracking of Sleep-Related Daytime Factors](https://dl.acm.org/doi/10.1145/3714394.3754418)
 
 Jiachen Du, **Xinkai Zou**, Liwen He, Shuzi Yin, Bingjie Gao, Wenjing Deng, Xinyi Fu, Haipeng Mi
 
@@ -79,7 +78,7 @@ Jiachen Du, **Xinkai Zou**, Liwen He, Shuzi Yin, Bingjie Gao, Wenjing Deng, Xiny
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp'25 Poster</div><img src='images/Task Wise.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-TaskWise: Enhancing Cognitive Performance in Task Management through Interactive Detail Enrichment
+[TaskWise: Enhancing Cognitive Performance in Task Management through Interactive Detail Enrichment](https://dl.acm.org/doi/10.1145/3714394.3754433)
 
 Jiachen Du, Bingjie Gao, Shuzi Yin, **Xinkai Zou**, Wenjing Deng, Xinyi Fu
 
@@ -124,44 +123,11 @@ Jiachen Du, Hanyu Huang, **Xinkai Zou**, Shuzi Yin, Bingjie Gao, Xinyi Fu
 - *2021.09 - 2025.07*, B.Eng. in Software Engineering, Tongji University
 - *2023.08 - 2023.12*, Exchange Student, University of California, Berkeley
 
-# 🧩 Projects
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/socity1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**SoCity Green Commute**](https://www.media.mit.edu/projects/socity-dao/overview/)
-
-A project aiming at encouraging greener daily commute behaviors. SoCity Green Commute explores personal carbon allowance, tokenomics, and decentralized governance using a mobile DApp.
-
-Collaboration with Chance Jiajie Li, Ruyi Yang, Zhenze Mo, etc.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/archinspire.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**ArchInspire**](https://archvisuallinker.notion.site/) (under revision)
-
-[*Project*](https://archvisuallinker.notion.site/) [*Dataset*](https://github.com/Emmmmmmaa/Architecture-Visual-Linker-Tag-Dataset)
-
-This paper introduces an AI-augmented design copilot that enhances conceptual abstraction by leveraging extensive datasets, advanced annotation using GPT-4V, and custom generative models, all seamlessly integrated to provide three key functions: an architectural search engine, bidirectional object-based architectural analysis, and an architectural design generator, creating a powerful tool for architectural inspiration.
-
-Collaboration with [Ruyi Yang](https://www.ruyiyang.com/).
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/bcg.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**BCG Gen-AI Platform**
-
-This project is a platform for BCG employees, consultants and clients to use privately deployed LLMs and tools.
-
-</div>
-</div>
-
-# 💻 Work Experience
-- *2023.12 - 2024.05*, **Data Engineer Intern** (Under supervision of Tianyu Shi, world's no.1 mentor),<img src="../images/tesla.png" width="20" style="vertical-align: right;"/> Tesla (Shanghai Gigafactory), China.
+# 💻 Experience
+- *2025.05 – 2025.10*, **Research Intern**, MIT JTL–Transit Lab, Boston, MA, United States
+- *2025.01 – 2025.07*, **Research Intern**, Texas A&M University TACO Lab, Texas, United States 
+- *2024.05 – 2025.06*, **Research Intern**, Tsinghua University Future Lab, Beijing, China 
+- *2023.12 - 2024.05*, **Data Scientist Intern** (Under supervision of Tianyu Shi, world's no.1 mentor),<img src="../images/tesla.png" width="20" style="vertical-align: right;"/> Tesla (Shanghai Gigafactory), China.
 - *2023.07 - 2023.09*, **Software Development Engineer Intern**, <img src="../images/zjport.jpg" width="16" style="vertical-align: right;"/> Zhejiang Smart Port Technology Co., Ltd., China.
 
 
