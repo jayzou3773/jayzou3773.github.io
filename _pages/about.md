@@ -35,6 +35,16 @@ My research interests are LLM Post-training, MoE, LLM System, and HCI.
 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 Poster</div><img src='images/chi2026poster.png' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Kairotask: Probing the Bridge Between Vague Intents and Spatiotemporal Contexts
+
+Jiachen Du, Yuanhao Zhang, Hengyu Jin, **Xinkai Zou**, Junwei Zhu, Xinyi Fu
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/website_poster.jpg' alt="sym" width="100%" style="margin-bottom: 10px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
