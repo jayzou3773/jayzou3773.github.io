@@ -1,0 +1,116 @@
+title: "Jay (Xinkai) Zou"
+baseURL: "https://jayzou3773.github.io/"
+theme: PaperModX
+
+enableRobotsTXT: true
+enableEmoji: true
+
+params:
+  repo: https://github.com/jayzou3773/jayzou3773.github.io
+  ShowViewHistory: false
+  profileMode:
+    enabled: true
+    title: "Jay (Xinkai) Zou"
+    subtitle: |
+      First-year MS student at UC San Diego, CSE. <br>
+      Previously B.Eng at Tongji University. <br><br>
+
+      **Research Interests**: MoE, AI Application, and HCI. <br><br>
+    imageUrl: "/images/profolio-avatar.png"
+    imageTitle: Jay (Xinkai) Zou
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: About
+        url: /about/
+      - name: Publications
+        url: /publications/
+
+  description: "Personal website of Jay (Xinkai) Zou, MS student at UCSD."
+  author: Xinkai Zou
+  favicon: /images/favicon.ico
+  DateFormat: "2006-01-02"
+  mainSections:
+    - publications
+    - projects
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  DisableLanguageSwitch: true
+  ShowToc: true
+  TocOpen: false
+  ShowBreadCrumbs: false
+  TocSide: right
+  EnableInstantClick: true
+  EnableImageZoom: true
+  ShowReadingTime: false
+  ShowWordCount: false
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  Email: jayzxinkai@gmail.com
+
+  socialIcons:
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=cHQSO10AAAAJ&hl=en"
+    - name: linkedin-simple
+      url: "https://www.linkedin.com/in/xinkaizou"
+    # - name: dblp
+    #   url: "https://dblp.org/pid/402/0808.html"
+    # - name: orcid
+    #   url: "https://orcid.org/0009-0008-5083-0797"
+    - name: gmail
+      url: "jayzxinkai@gmail.com"
+
+outputs:
+  home:
+    - HTML
+    - JSON
+
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 50
+    - name: Publications
+      url: /publications/
+      weight: 100
+    - name: Projects
+      url: /projects/
+      weight: 200
+    - name: Search
+      url: /search/
+      weight: 500
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: images
+      target: static/images
+    - source: assets
+      target: assets
+    - source: layouts
+      target: layouts
+    - source: content
+      target: content
+    - source: i18n
+      target: i18n
+    - source: data
+      target: data
+    - source: archetypes
+      target: archetypes

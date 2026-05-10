@@ -1,0 +1,27 @@
+<div class="publication-reference" style="text-align: justify;" data-topic="{{ .Params.topic }}">
+    <p>
+    {{ with .Get "paperLink" }}
+        <a href="{{ . }}">{{ $.Get "title" }}</a>
+    {{ else }}
+        {{ .Get "title" }}
+    {{ end }}<br>
+    {{ .Inner | markdownify }}<br>
+    <strong>{{ .Get "venue" }}</strong>
+    {{ with .Get "award" }}
+        <strong style="color: red;">({{ . }})</strong>
+    {{ end }}
+        <br>
+    {{ with .Get "paperLink" }}
+        [<a href="{{ . }}">paper</a>]
+    {{ end }}
+    {{ with .Get "codeLink" }}
+        [<a href="{{ . }}">code</a>]
+    {{ end }}
+    {{ with .Get "project" }}
+        [<a href="{{ . }}">project</a>]
+    {{ end }}
+    {{ with .Get "dataset" }}
+        [<a href="{{ . }}">dataset</a>]
+    {{ end }}
+    </p>
+</div>
