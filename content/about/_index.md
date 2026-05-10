@@ -1,13 +1,13 @@
 ---
 title: About Me
-description: Jay (Xinkai) Zou — UCSD MS student, research interests in LLM systems and HCI.
+description: Jay (Xinkai) Zou — UCSD MS student, AI Research & Taking naps.
 ---
 
 I am a first-year MS student in Computer Science at [UC San Diego](https://cse.ucsd.edu/). Previously, I received my B.Eng in Software Engineering from [Tongji University](https://en.tongji.edu.cn/). During my undergrad, I spent a semester as an exchange student at [UC Berkeley](https://www.berkeley.edu/).
 
 ## Research Interests
 
-- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(Efficient Post-training)
+- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(Efficient Post-training); Fisher-MoE (Coming Soon)
 - **AI Application (AI Agent, AI for Science)** — [Group Behavior Simulation](https://arxiv.org/abs/2604.09874); [CloudAnoBench](https://arxiv.org/abs/2508.01844v2); [SAFEFLOW](https://www.arxiv.org/abs/2506.07564); [Goal2Story](https://arxiv.org/abs/2503.13279)
 - **HCI** — [Kairotask](https://dl.acm.org/doi/10.1145/3772363.3798333); [Circadia](https://dl.acm.org/doi/10.1145/3714394.3754418); [TaskWise](https://dl.acm.org/doi/10.1145/3714394.3754433); [Voice Cloning](https://dl.acm.org/doi/10.1145/3715070.3749244)
 
@@ -37,6 +37,6 @@ I am a first-year MS student in Computer Science at [UC San Diego](https://cse.u
 - **2021** — Tongji University Undergraduate Outstanding Student Scholarship
 - **2021** — Tongji University Student of the Year
 
-## Contact
+## Service
 
-- [Google Scholar](https://scholar.google.com/citations?user=cHQSO10AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/xinkaizou) 
+- COLM 2026 Reviewer, CUI 2026 Reviewer
