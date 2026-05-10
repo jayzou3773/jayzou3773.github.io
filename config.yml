@@ -1,6 +1,7 @@
 title: "Jay (Xinkai) Zou"
 baseURL: "https://jayzou3773.github.io/"
 theme: PaperModX
+languageCode: en-us
 
 enableRobotsTXT: true
 enableEmoji: true
