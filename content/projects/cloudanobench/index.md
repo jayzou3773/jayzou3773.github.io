@@ -1,16 +1,18 @@
 ---
-title: "CloudAnoBench"
+title: "Cloud Anomaly Detection From Logs and Metrics"
 summary: "Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments."
+date: 2025-08-04
+ShowToc: true
+TocOpen: true
 ---
 
-### Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments
 
 **Xinkai Zou**<sup>1</sup>, [Xuan Jiang](https://xuan-1998.github.io/)<sup>2\*</sup>, [Ruikai Huang](https://rkh.lol)<sup>3</sup>, [Haoze He](https://hectorhhz.github.io)<sup>4</sup>, [Parv Kapoor](https://parvkpr.github.io)<sup>4</sup>, Hongrui Wu<sup>5</sup>, Yibo Wang<sup>5</sup>, Jian Sha<sup>6</sup>, Xiongbo Shi<sup>5</sup>, [Zixun Huang](https://zixunhuangupenn.github.io)<sup>7</sup>, [Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/)<sup>2</sup>
 
 <sup>1</sup>UC San Diego &nbsp; <sup>2</sup>MIT &nbsp; <sup>3</sup>Georgia Tech &nbsp; <sup>4</sup>CMU &nbsp; <sup>5</sup>Tongji University &nbsp; <sup>6</sup>Tsinghua University &nbsp; <sup>7</sup>UPenn
 <sup>\*</sup> Corresponding author
 
-\[[Paper](https://arxiv.org/abs/2508.01844v2)\] \[[arXiv PDF](https://arxiv.org/pdf/2508.01844v2)\] \[[Dataset](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)\]
+\[[Paper](https://arxiv.org/abs/2508.01844v2)\] \[[Dataset](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)\]
 
 ---
 
