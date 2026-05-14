@@ -13,7 +13,11 @@ TocOpen: true
 \[[Paper](https://arxiv.org/abs/2604.09874)\] \[[Code](https://github.com/jayzou3773/Organized-Group-Behavior-Simulation)\] \[[Dataset](https://huggingface.co/datasets/jayzou3773/GROVE)\] 
 
 ---
-TL;DR: We propose the task of simulating organized group behaviors: Given a group facing a particular situation, the task predicts the decision it would make. We also present **GROVE**, a benchmark for this task collected from the real-world data (Wikipedia and TechCrunch) containing 44 entities. We propose a framework converting collective decision-making events into interpretable, adaptive, and traceable behavioral models, outperforming summarization and retrieval-based baselines. The approach includes an adapter mechanism for time-aware evolution and group-aware transfer, plus traceable evidence nodes grounding each decision rule in originating historical events.
+TL;DR: 
+1. We propose the task of simulating organized group behaviors: Given a group facing a particular situation, the task predicts the decision it would make.
+2. We also present **GROVE**, a benchmark for this task collected from the real-world data (Wikipedia and TechCrunch) containing 44 entities. 
+3. We propose a **framework** converting collective decision-making events into interpretable, adaptive, and traceable behavioral models, outperforming summarization and retrieval-based baselines. The approach includes an adapter mechanism for time-aware evolution and group-aware transfer, plus traceable evidence nodes grounding each decision rule in originating historical events.
+4. Analysis on **temporal behavior drift** and **cross-group similarity as well as behavior transfer**
 
 
 ### Motivation
