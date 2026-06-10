@@ -17,7 +17,7 @@ params:
       Previously B.Eng at Tongji University. <br><br>
 
       **Research Interests**: MoE, AI Application, and HCI. <br><br>
-    imageUrl: "/images/profolio-avatar.png"
+    imageUrl: "/images/profolio-avatar-birthday.png"
     imageTitle: Jay (Xinkai) Zou
     imageWidth: 200
     imageHeight: 200
@@ -26,6 +26,8 @@ params:
         url: /about/
       - name: Publications
         url: /publications/
+      - name: Projects
+        url: /projects/
 
   description: "Personal website of Jay (Xinkai) Zou, MS student at UCSD."
   author: Xinkai Zou
