@@ -7,9 +7,9 @@ I am a first-year MS student in Computer Science at [UC San Diego](https://cse.u
 
 ## Research Interests
 
-- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(Efficient Post-training); Fisher-MoE (Coming Soon)
+- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(Efficient Post-training); [Fisher-MoE](https://arxiv.org/abs/2606.05538)(Model Attribution and Pruning)
 - **AI Application (AI Agent, AI for Science)** — [Group Behavior Simulation](https://arxiv.org/abs/2604.09874); [CloudAnoBench](https://arxiv.org/abs/2508.01844v2); [SAFEFLOW](https://www.arxiv.org/abs/2506.07564); [Goal2Story](https://arxiv.org/abs/2503.13279)
-- **HCI** — [Kairotask](https://dl.acm.org/doi/10.1145/3772363.3798333); [Circadia](https://dl.acm.org/doi/10.1145/3714394.3754418); [TaskWise](https://dl.acm.org/doi/10.1145/3714394.3754433); [Voice Cloning](https://dl.acm.org/doi/10.1145/3715070.3749244)
+- **HCI** — [Kairotask](https://dl.acm.org/doi/10.1145/3772363.3798333)(CHI'26); [Circadia](https://dl.acm.org/doi/10.1145/3714394.3754418)(Ubicomp'25); [TaskWise](https://dl.acm.org/doi/10.1145/3714394.3754433)(Ubicomp'25); [Voice Cloning](https://dl.acm.org/doi/10.1145/3715070.3749244)(CSCW'25)
 
 ## Education
 
@@ -25,10 +25,8 @@ I am a first-year MS student in Computer Science at [UC San Diego](https://cse.u
 |------|-------|------|
 | 2025.10 - 2026.05 | **UCSD Shang Data Lab** | Research Intern |
 | 2025.05 – 2025.10 | **MIT JTL–Transit Lab** | Research Intern |
-| 2025.01 – 2025.07 | **Texas A&M TACO Lab** | Research Intern |
 | 2024.05 – 2025.06 | **Tsinghua University Future Lab** | Research Intern |
 | 2023.12 – 2024.05 | **Tesla** | Data Scientist Intern |
-| 2023.07 – 2023.09 | **Zhejiang Smart Port Technology** | Software Development Engineer Intern |
 
 ## Honors and Awards
 
