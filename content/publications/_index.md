@@ -7,6 +7,10 @@ disableToc: true
 
 ## 2026
 
+{{< publication title="Less is MoE: Trimming Experts in Domain-Specialist Language Models" venue="In submission to EMNLP" paperLink="https://arxiv.org/abs/2606.05538" data-topic="MoE, Model Attribution and Pruning" >}}
+Haoze He*, **Xinkai Zou***, Xuan Jiang, Xingyuan Ding, Au Qu, Juncheng Billy Li, Heather Miller
+{{< /publication >}}
+
 {{< publication title="Simulating Organized Group Behavior: New Framework, Benchmark, and Analysis" venue="In submission to COLM" paperLink="https://arxiv.org/abs/2604.09874" codeLink="https://github.com/jayzou3773/Organized-Group-Behavior-Simulation" dataset="https://huggingface.co/datasets/jayzou3773/GROVE" project="https://jayzou3773.github.io/projects/group-behavior-simulation/" data-topic="AI Application, Group Behavior Simulation" >}}
 **Xinkai Zou***, Yiming Huang*, Zhuohang Wu, Jian Sha, Nan Huang, Longfei Yun, Jingbo Shang, Letian Peng
 {{< /publication >}}
