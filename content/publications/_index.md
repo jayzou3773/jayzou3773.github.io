@@ -11,11 +11,11 @@ disableToc: true
 Haoze He*, **Xinkai Zou***, Xuan Jiang, Xingyuan Ding, Au Qu, Juncheng Billy Li, Heather Miller
 {{< /publication >}}
 
-{{< publication title="Simulating Organized Group Behavior: New Framework, Benchmark, and Analysis" venue="In submission to COLM" paperLink="https://arxiv.org/abs/2604.09874" codeLink="https://github.com/jayzou3773/Organized-Group-Behavior-Simulation" dataset="https://huggingface.co/datasets/jayzou3773/GROVE" project="https://jayzou3773.github.io/projects/group-behavior-simulation/" data-topic="AI Application, Group Behavior Simulation" >}}
+{{< publication title="Simulating Organized Group Behavior: New Framework, Benchmark, and Analysis" venue="COLM 2026" paperLink="https://arxiv.org/abs/2604.09874" codeLink="https://github.com/jayzou3773/Organized-Group-Behavior-Simulation" dataset="https://huggingface.co/datasets/jayzou3773/GROVE" project="https://jayzou3773.github.io/projects/group-behavior-simulation/" data-topic="AI Application, Group Behavior Simulation" >}}
 **Xinkai Zou***, Yiming Huang*, Zhuohang Wu, Jian Sha, Nan Huang, Longfei Yun, Jingbo Shang, Letian Peng
 {{< /publication >}}
 
-{{< publication title="Preserving Long-Tailed Expert Information in Mixture-of-Experts Tuning" venue="In submission to COLM" paperLink="https://arxiv.org/abs/2604.23036" codeLink="" award="" project="" data-topic="MoE, Post-training" >}}
+{{< publication title="Preserving Long-Tailed Expert Information in Mixture-of-Experts Tuning" venue="COLM 2026" paperLink="https://arxiv.org/abs/2604.23036" codeLink="" award="" project="" data-topic="MoE, Post-training" >}}
 Haoze He, Xingyuan Ding, Xuan Jiang, **Xinkai Zou**, Alex Cheng, Yibo Zhao, Juncheng Billy Li, Heather Miller
 {{< /publication >}}
 

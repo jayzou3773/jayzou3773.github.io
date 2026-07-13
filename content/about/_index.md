@@ -3,12 +3,12 @@ title: About Me
 description: Jay (Xinkai) Zou — UCSD MS student, AI Research & Taking naps.
 ---
 
-I am a first-year MS student in Computer Science at [UC San Diego](https://cse.ucsd.edu/). Previously, I received my B.Eng in Software Engineering from [Tongji University](https://en.tongji.edu.cn/). During my undergrad, I spent a semester as an exchange student at [UC Berkeley](https://www.berkeley.edu/).
+I am a first-year MS student in Computer Science at UC San Diego. Previously, I received my B.Eng in Software Engineering from Tongji University. During my undergrad, I spent a semester as an exchange student at UC Berkeley.
 
 ## Research Interests
 
-- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(Efficient Post-training); [Less is MoE](https://arxiv.org/abs/2606.05538)(Model Attribution and Pruning)
-- **AI Application (AI Agent, AI for Science)** — [Group Behavior Simulation](https://arxiv.org/abs/2604.09874); [CloudAnoBench](https://arxiv.org/abs/2508.01844v2); [SAFEFLOW](https://www.arxiv.org/abs/2506.07564); [Goal2Story](https://arxiv.org/abs/2503.13279)
+- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(COLM'26); [Less is MoE](https://arxiv.org/abs/2606.05538)(Model Attribution and Pruning)
+- **AI Application (AI Agent, AI for Science)** — [Group Behavior Simulation](https://arxiv.org/abs/2604.09874)(COLM'26); [CloudAnoBench](https://arxiv.org/abs/2508.01844v2); [SAFEFLOW](https://www.arxiv.org/abs/2506.07564); [Goal2Story](https://arxiv.org/abs/2503.13279)
 - **HCI** — [Kairotask](https://dl.acm.org/doi/10.1145/3772363.3798333)(CHI'26); [Circadia](https://dl.acm.org/doi/10.1145/3714394.3754418)(Ubicomp'25); [TaskWise](https://dl.acm.org/doi/10.1145/3714394.3754433)(Ubicomp'25); [Voice Cloning](https://dl.acm.org/doi/10.1145/3715070.3749244)(CSCW'25)
 
 ## Education
