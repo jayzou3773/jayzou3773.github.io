@@ -29,7 +29,7 @@ params:
       - name: Projects
         url: /projects/
       - name: CV
-        url: /cv/
+        url: /cv/cv.pdf
 
   description: "Personal website of Jay (Xinkai) Zou, MS student at UCSD."
   author: Xinkai Zou
@@ -89,7 +89,7 @@ menu:
       url: /projects/
       weight: 200
     - name: CV
-      url: /cv/
+      url: /cv/cv.pdf
       weight: 300
     - name: Search
       url: /search/
