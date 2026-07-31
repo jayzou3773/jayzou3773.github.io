@@ -25,7 +25,7 @@ Jiachen Du, Yuanhao Zhang, Hengyu Jin, **Xinkai Zou**, Junwei Zhu, Xinyi Fu
 
 ## 2025
 
-{{< publication title="Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments" venue="In submission to COLM" paperLink="https://arxiv.org/abs/2508.01844v2" codeLink="" award="" project="https://jayzou3773.github.io/cloudanobench-agent/" dataset="https://huggingface.co/datasets/jayzou3773/CloudAnoBench" data-topic="AI Application, Anomaly Detection" >}}
+{{< publication title="Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments" venue="COLM 2026 AIMS" paperLink="https://arxiv.org/abs/2508.01844v2" codeLink="" award="" project="https://jayzou3773.github.io/cloudanobench-agent/" dataset="https://huggingface.co/datasets/jayzou3773/CloudAnoBench" data-topic="AI Application, Anomaly Detection" >}}
 **Xinkai Zou**, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Hongrui Wu, Yibo Wang, Jian Sha, Xiongbo Shi, Zixun Huang, Jinhua Zhao
 {{< /publication >}}
 

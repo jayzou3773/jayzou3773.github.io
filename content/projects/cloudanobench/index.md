@@ -12,6 +12,8 @@ TocOpen: true
 <sup>1</sup>UC San Diego &nbsp; <sup>2</sup>MIT &nbsp; <sup>3</sup>Georgia Tech &nbsp; <sup>4</sup>CMU &nbsp; <sup>5</sup>Tongji University &nbsp; <sup>6</sup>Tsinghua University &nbsp; <sup>7</sup>UPenn
 <sup>\*</sup> Corresponding author
 
+**Update: this work is accepted by COLM 2026 AIMS🎉**
+
 \[[Paper](https://arxiv.org/abs/2508.01844v2)\] \[[Dataset](https://huggingface.co/datasets/jayzou3773/CloudAnoBench)\]
 
 ---
