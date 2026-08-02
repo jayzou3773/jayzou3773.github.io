@@ -7,9 +7,10 @@ I am a first-year MS student in Computer Science at UC San Diego. Previously, I 
 
 ## Research Interests
 
-- **MoE (Post-training, Pruning)** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(COLM'26); [Less is MoE](https://arxiv.org/abs/2606.05538)(Model Attribution and Pruning)
-- **AI Application (AI Agent, AI for Science)** — [Group Behavior Simulation](https://arxiv.org/abs/2604.09874)(COLM'26); [CloudAnoBench](https://arxiv.org/abs/2508.01844v2); [SAFEFLOW](https://www.arxiv.org/abs/2506.07564); [Goal2Story](https://arxiv.org/abs/2503.13279)
-- **HCI** — [Kairotask](https://dl.acm.org/doi/10.1145/3772363.3798333)(CHI'26); [Circadia](https://dl.acm.org/doi/10.1145/3714394.3754418)(Ubicomp'25); [TaskWise](https://dl.acm.org/doi/10.1145/3714394.3754433)(Ubicomp'25); [Voice Cloning](https://dl.acm.org/doi/10.1145/3715070.3749244)(CSCW'25)
+- **AI for Future** — [Group Behavior Simulation](https://arxiv.org/abs/2604.09874)(COLM 2026)
+- **Efficient AI** — [Condenser-Experts](https://arxiv.org/abs/2604.23036)(COLM 2026); [Less is MoE](https://arxiv.org/abs/2606.05538)(Model Attribution and Pruning)
+- **AI Application** — [CloudAnoBench](https://arxiv.org/abs/2508.01844v2)(COLM 2026 AIMS); [SAFEFLOW](https://www.arxiv.org/abs/2506.07564); [Goal2Story](https://arxiv.org/abs/2503.13279)
+- **HCI** — [Kairotask](https://dl.acm.org/doi/10.1145/3772363.3798333)(CHI 2026); [Circadia](https://dl.acm.org/doi/10.1145/3714394.3754418)(Ubicomp 2025); [TaskWise](https://dl.acm.org/doi/10.1145/3714394.3754433)(Ubicomp 2025); [Voice Cloning](https://dl.acm.org/doi/10.1145/3715070.3749244)(CSCW 2025)
 
 ## Education
 
