@@ -6,9 +6,9 @@ ShowToc: true
 TocOpen: true
 ---
 
-**Xinkai Zou\***, Yiming Huang\*, Zhuohang Wu, Jian Sha, Nan Huang, Longfei Yun, Jingbo Shang, Letian Peng
+**Xinkai Zou\***, Yiming Huang\*, Zhuohang Wu, Jian Sha, Nan Huang, Longfei Yun, Jingbo Shang<sup>†</sup>, Letian Peng<sup>†</sup>
 
-\*equal contribution
+\* Equal contribution. <sup>†</sup> Corresponding authors.
 
 \[[Paper](https://arxiv.org/abs/2604.09874)\] \[[Code](https://github.com/jayzou3773/Organized-Group-Behavior-Simulation)\] \[[Dataset](https://huggingface.co/datasets/jayzou3773/GROVE)\] 
 
