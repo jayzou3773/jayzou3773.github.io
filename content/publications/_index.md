@@ -7,7 +7,7 @@ disableToc: true
 
 ## 2026
 
-{{< publication title="Less is MoE: Trimming Experts in Domain-Specialist Language Models" venue="In submission to EMNLP" paperLink="https://arxiv.org/abs/2606.05538" data-topic="MoE, Model Attribution and Pruning" >}}
+{{< publication title="Less is MoE: Trimming Experts in Domain-Specialist Language Models" venue="EMNLP 2026 Main" paperLink="https://arxiv.org/abs/2606.05538" data-topic="MoE, Model Attribution and Pruning" >}}
 Haoze He*, **Xinkai Zou***, Xuan Jiang, Xingyuan Ding, Au Qu, Juncheng Billy Li, Heather Miller
 {{< /publication >}}
 
