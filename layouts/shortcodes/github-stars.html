@@ -1,0 +1,11 @@
+{{- $repo := .Get "repo" -}}
+<a href="https://github.com/{{ $repo }}/stargazers"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="View {{ $repo }} stargazers on GitHub"
+   style="display:inline-block; margin-left:0.25rem; vertical-align:middle; box-shadow:none;">
+  <img src="https://img.shields.io/github/stars/{{ $repo }}?style=social"
+       alt="GitHub stars for {{ $repo }}"
+       loading="lazy"
+       style="display:inline-block; height:20px; margin:0; border-radius:3px; vertical-align:middle;">
+</a>

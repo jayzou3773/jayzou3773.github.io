@@ -20,7 +20,13 @@ I am a first-year MS student in Computer Science at UC San Diego. Previously, I 
 | 2023.08 – 2023.12 | **UC Berkeley** | Exchange student |
 | 2021.09 – 2025.07 | **Tongji University** | B.Eng |
 
-## Experience
+## Projects
+
+1. **Social Simulation Arena** — [Website](https://social-simulation-arena.com/#leaderboard) · [GitHub](https://github.com/Social-Atoms/social-sim-arena) — Research & Engineering Core Contributor
+2. **REEF** — [GitHub](https://github.com/Human-Agent-Society/reef) {{< github-stars repo="Human-Agent-Society/reef" >}} — RSI Infra, Core Contributor
+3. **FastVideo** — [GitHub](https://github.com/hao-ai-lab/FastVideo) {{< github-stars repo="hao-ai-lab/FastVideo" >}} — Video Generation Infra, Contributor
+
+## Work Experience
 
 | When | Where | Role |
 |------|-------|------|

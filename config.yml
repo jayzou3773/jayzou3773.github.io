@@ -25,7 +25,7 @@ params:
         url: /about/
       - name: Publications
         url: /publications/
-      - name: Projects
+      - name: Blogs
         url: /projects/
 
   description: "Personal website of Jay (Xinkai) Zou, MS student at UCSD."
@@ -82,7 +82,7 @@ menu:
     - name: Publications
       url: /publications/
       weight: 100
-    - name: Projects
+    - name: Blogs
       url: /projects/
       weight: 200
     - name: Search
