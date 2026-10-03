@@ -7,9 +7,10 @@ TocOpen: true
 ---
 
 
-**Xinkai Zou**<sup>1</sup>, [Xuan Jiang](https://xuan-1998.github.io/)<sup>2\*</sup>, [Ruikai Huang](https://rkh.lol)<sup>3</sup>, [Haoze He](https://hectorhhz.github.io)<sup>4</sup>, [Parv Kapoor](https://parvkpr.github.io)<sup>4</sup>, Hongrui Wu<sup>5</sup>, Yibo Wang<sup>5</sup>, Jian Sha<sup>6</sup>, Xiongbo Shi<sup>5</sup>, [Zixun Huang](https://zixunhuangupenn.github.io)<sup>7</sup>, [Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/)<sup>2</sup>
+**Xinkai Zou**<sup>1</sup>, [Xuan Jiang](https://xuan-1998.github.io/)<sup>2\*</sup>, [Ruikai Huang](https://rkh.lol)<sup>3</sup>, [Haoze He](https://hectorhhz.github.io)<sup>4</sup>, [Parv Kapoor](https://parvkpr.github.io)<sup>4</sup>, Hongrui Wu<sup>5</sup>, Yibo Wang<sup>6</sup>, Jian Sha<sup>7</sup>, Xiongbo Shi<sup>8</sup>, [Zixun Huang](https://zixunhuangupenn.github.io)<sup>9</sup>, [Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/)<sup>2</sup>
 
-<sup>1</sup>UC San Diego &nbsp; <sup>2</sup>MIT &nbsp; <sup>3</sup>Georgia Tech &nbsp; <sup>4</sup>CMU &nbsp; <sup>5</sup>Tongji University &nbsp; <sup>6</sup>Tsinghua University &nbsp; <sup>7</sup>UPenn
+<sup>1</sup> University of California, San Diego &nbsp; <sup>2</sup> Massachusetts Institute of Technology &nbsp; <sup>3</sup> Georgia Institute of Technology &nbsp; <sup>4</sup> Carnegie Mellon University<br>
+<sup>5</sup> Stanford University &nbsp; <sup>6</sup> University of Illinois Urbana-Champaign &nbsp; <sup>7</sup> Tsinghua University &nbsp; <sup>8</sup> Tongji University &nbsp; <sup>9</sup> University of Pennsylvania<br>
 <sup>\*</sup> Corresponding author
 
 **Update: this work is accepted by COLM 2026 AIMS🎉**

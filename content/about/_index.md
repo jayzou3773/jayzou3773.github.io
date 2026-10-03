@@ -24,7 +24,8 @@ I am a first-year MS student in Computer Science at UC San Diego. Previously, I 
 
 1. **Social Simulation Arena** — [Website](https://social-simulation-arena.com/#leaderboard) · [GitHub](https://github.com/Social-Atoms/social-sim-arena) — Research & Engineering Core Contributor
 2. **REEF** — [GitHub](https://github.com/Human-Agent-Society/reef) {{< github-stars repo="Human-Agent-Society/reef" >}} — RSI Infra, Core Contributor
-3. **FastVideo** — [GitHub](https://github.com/hao-ai-lab/FastVideo) {{< github-stars repo="hao-ai-lab/FastVideo" >}} — Video Generation Infra, Contributor
+3. **Hawky Personal Agent** — [Product Page](https://www.hawky.live/) · [X Post](https://x.com/haoailab/status/2104998028402925644?s=20) · [GitHub](https://github.com/hao-ai-lab/hawky) — Project Lead
+4. **FastVideo** — [GitHub](https://github.com/hao-ai-lab/FastVideo) {{< github-stars repo="hao-ai-lab/FastVideo" >}} — Video Generation Infra, Contributor
 
 ## Work Experience
 
