@@ -1,4 +1,7 @@
 ---
+url: "/blogs/cloudanobench/"
+aliases:
+  - "/projects/cloudanobench/"
 title: "Cloud Anomaly Detection From Logs and Metrics"
 summary: "Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments."
 date: 2025-08-04

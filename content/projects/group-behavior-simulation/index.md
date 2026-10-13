@@ -1,4 +1,7 @@
 ---
+url: "/blogs/group-behavior-simulation/"
+aliases:
+  - "/projects/group-behavior-simulation/"
 title: "Organized Group Behavior Simulation"
 summary: "Simulating how organized groups make decisions — a new task, benchmark (GROVE), and structured analytical framework."
 date: 2026-04-14

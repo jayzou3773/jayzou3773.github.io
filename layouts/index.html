@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jay (Xinkai) Zou — AI for simulation and efficient AI.">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <title>Jay (Xinkai) Zou · About</title>
+  <link rel="icon" type="image/png" href="/assets/j-favicon.png">
+  <link rel="stylesheet" href="/style.css?v=site-2">
+  <script src="/app.js?v=site-2" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header>
+      <a class="wordmark" href="#about">Jay (Xinkai) Zou</a>
+      <nav aria-label="Main navigation">
+        <a href="#about" aria-current="page">About</a><span aria-hidden="true">/</span>
+        <a href="#research">Research</a><span aria-hidden="true">/</span>
+        <a href="#projects">Projects</a><span aria-hidden="true">/</span>
+        <a href="#blogs">Blogs</a><span aria-hidden="true">/</span>
+        <a href="#experience">Experience</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <noscript>Please enable JavaScript to navigate the site.</noscript>
+      <section class="view" id="about" aria-label="About Jay">
+        {{ $content := os.ReadFile "static/content.json" | transform.Unmarshal }}
+        <div class="bio">
+          <img class="portrait" src="{{ $content.about.portrait }}" width="108" height="144" alt="Jay’s photo">
+          {{ range $content.about.paragraphs }}<p>{{ . | markdownify }}</p>{{ end }}
+        </div>
+        <p class="email">Email: <a href="mailto:{{ $content.profile.email }}">{{ $content.profile.email }}</a></p>
+      </section>
+      <section class="view" id="research" aria-label="Research" hidden></section>
+      <section class="view" id="projects" aria-label="Projects" hidden></section>
+      <section class="view" id="blogs" aria-label="Blogs" hidden></section>
+      <section class="view" id="experience" aria-label="Experience" hidden></section>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+</html>

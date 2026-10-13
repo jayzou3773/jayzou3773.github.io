@@ -44,6 +44,12 @@ jobs:
             --environment production \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Check site links and read-only output
+        run: |
+          node --check static/app.js
+          node --check static/blog.js
+          python3 scripts/check_site.py public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

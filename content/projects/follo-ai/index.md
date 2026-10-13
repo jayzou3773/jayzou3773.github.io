@@ -1,4 +1,7 @@
 ---
+url: "/blogs/follo-ai/"
+aliases:
+  - "/projects/follo-ai/"
 title: "How task management meets AI assistant?"
 summary: "A new era for task management"
 date: 2026-05-11

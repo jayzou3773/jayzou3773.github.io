@@ -1,0 +1,265 @@
+{
+  "profile": {
+    "name": "Jay (Xinkai) Zou",
+    "email": "jayzou@ucsd.edu",
+    "xUrl": "https://x.com/Jayzou3773",
+    "scholarUrl": "https://scholar.google.com/citations?user=cHQSO10AAAAJ&hl=en",
+    "githubUrl": "https://github.com/jayzou3773",
+    "linkedinUrl": "https://www.linkedin.com/in/xinkaizou"
+  },
+  "about": {
+    "portrait": "/assets/jay-photo.jpg",
+    "paragraphs": [
+      "Hi, I’m **Jay (Xinkai) Zou**. I study AI for simulation and efficient AI.",
+      "I'm building ai for social simulation from verification ([SSA](https://social-simulation-arena.com/)), methodology ([Group Behavior](https://arxiv.org/pdf/2604.09874)), environment (ongoing). I also study efficient ai from post-training ([Expert-Condenser](https://arxiv.org/pdf/2604.23036)) and pruning ([less-is-moe](https://arxiv.org/pdf/2606.05538)).",
+      "I’m an MS student in Computer Science at UC San Diego, advised by Jingbo Shang. Previously, I did my B.Eng in Software Engineering at Tongji University and exchange at UC Berkeley.",
+      "I'm open to collaboration and chat."
+    ]
+  },
+  "research": {
+    "publications": [
+      {
+        "year": 2026,
+        "topic": "efficient",
+        "venue": "EMNLP 2026 Main",
+        "title": "Less is MoE: Trimming Experts in Domain-Specialist Language Models",
+        "tldr": "Fisher-MoE prunes intermediate dimensions within experts to reduce memory and speed up inference while preserving model capabilities.",
+        "authors": "Haoze He*, Xinkai Zou*, Xuan Jiang, Xingyuan Ding, Ao Qu, Juncheng Billy Li, Heather Miller",
+        "paper": "https://arxiv.org/abs/2606.05538",
+        "code": "https://github.com/HectorHHZ/Less-is-MoE"
+      },
+      {
+        "year": 2026,
+        "topic": "discovery",
+        "venue": "COLM 2026",
+        "title": "Simulating Organized Group Behavior: New Framework, Benchmark, and Analysis",
+        "tldr": "GROVE benchmarks organizational decisions, while a traceable behavioral framework predicts how groups respond to new situations and adapt over time.",
+        "authors": "Xinkai Zou*, Yiming Huang*, Zhuohang Wu, Jian Sha, Nan Huang, Longfei Yun, Jingbo Shang, Letian Peng",
+        "correspondingAuthors": [
+          "Jingbo Shang",
+          "Letian Peng"
+        ],
+        "paper": "https://arxiv.org/abs/2604.09874",
+        "code": "https://github.com/jayzou3773/Organized-Group-Behavior-Simulation",
+        "dataset": "https://huggingface.co/datasets/jayzou3773/GROVE",
+        "project": "/blogs/group-behavior-simulation/"
+      },
+      {
+        "year": 2026,
+        "topic": "efficient",
+        "venue": "COLM 2026",
+        "title": "Preserving Long-Tailed Expert Information in Mixture-of-Experts Tuning",
+        "tldr": "Always-active condenser experts preserve knowledge from rarely activated experts, improving MoE fine-tuning without auxiliary load-balancing losses.",
+        "authors": "Haoze He, Xingyuan Ding, Xuan Jiang, Xinkai Zou, Alex Cheng, Yibo Zhao, Juncheng Billy Li, Heather Miller",
+        "paper": "https://arxiv.org/abs/2604.23036",
+        "code": "https://github.com/HectorHHZ/ExpertCondenser"
+      },
+      {
+        "year": 2026,
+        "topic": "hci",
+        "venue": "CHI 2026 Poster",
+        "title": "Kairotask: Probing the Bridge Between Vague Intents and Spatiotemporal Contexts",
+        "tldr": "Kairotask helps people turn vague intentions into actionable time-and-place cues through AI suggestions and user refinement.",
+        "authors": "Jiachen Du, Yuanhao Zhang, Hengyu Jin, Xinkai Zou, Junwei Zhu, Xinyi Fu",
+        "correspondingAuthors": [
+          "Xinyi Fu"
+        ],
+        "paper": "https://dl.acm.org/doi/10.1145/3772363.3798333"
+      },
+      {
+        "year": 2025,
+        "topic": "discovery",
+        "venue": "COLM 2026 AI Measurement Science",
+        "title": "Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments",
+        "tldr": "CloudAnoBench tests contextual anomalies across logs and metrics; CloudAnoAgent combines LLM reasoning with symbolic verification to detect them.",
+        "authors": "Xinkai Zou, Xuan Jiang, Ruikai Huang, Haoze He, Parv Kapoor, Hongrui Wu, Yibo Wang, Jian Sha, Xiongbo Shi, Zixun Huang, Jinhua Zhao",
+        "correspondingAuthors": [
+          "Xuan Jiang"
+        ],
+        "paper": "https://arxiv.org/abs/2508.01844v2",
+        "project": "/blogs/cloudanobench/",
+        "dataset": "https://huggingface.co/datasets/jayzou3773/CloudAnoBench"
+      },
+      {
+        "year": 2025,
+        "topic": "hci",
+        "venue": "UbiComp 2025 Poster",
+        "title": "Emotional Support Originating from Dialogue: Empowering Older Adults’ Self-Tracking of Sleep-Related Daytime Factors",
+        "tldr": "Circadia uses supportive conversations to help older adults track daytime activities and reflect on how they relate to sleep.",
+        "authors": "Jiachen Du, Xinkai Zou, Liwen He, Shuzi Yin, Bingjie Gao, Wenjing Deng, Xinyi Fu, Haipeng Mi",
+        "correspondingAuthors": [
+          "Haipeng Mi"
+        ],
+        "paper": "https://dl.acm.org/doi/10.1145/3714394.3754418"
+      },
+      {
+        "year": 2025,
+        "topic": "hci",
+        "venue": "UbiComp 2025 Poster",
+        "title": "TaskWise: Enhancing Cognitive Performance in Task Management through Interactive Detail Enrichment",
+        "tldr": "TaskWise uses optional AI prompts to enrich to-do items with practical details, helping users prepare for tasks and feel more in control.",
+        "authors": "Jiachen Du, Bingjie Gao, Shuzi Yin, Xinkai Zou, Wenjing Deng, Xinyi Fu",
+        "correspondingAuthors": [
+          "Xinyi Fu"
+        ],
+        "paper": "https://dl.acm.org/doi/10.1145/3714394.3754433"
+      },
+      {
+        "title": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
+        "tldr": "",
+        "year": 2026,
+        "topic": "discovery",
+        "venue": "preprint",
+        "authors": "Yiming Huang, Ziche Liu, Junxia Cui, Zhuohang Wu, Yiqian Wang, Xinkai Zou, Lingjun Mao, Nan Huang, Naicheng Yu, Kaijie Zhu, Yue Ma, Kun Zhou, Letian Peng, Jingbo Shang",
+        "correspondingAuthors": [
+          "Letian Peng",
+          "Jingbo Shang"
+        ],
+        "paper": "https://arxiv.org/pdf/2609.01552",
+        "code": "https://github.com/yiyihum/SciLaws-Bench",
+        "dataset": "https://huggingface.co/datasets/RealSR/SciLaws-Bench",
+        "project": "https://yiyihum.github.io/SciLaws-Bench/"
+      },
+      {
+        "title": "Social Simulation Arena: A Prospective Benchmark for Social Simulation",
+        "tldr": "Social Simulation Arena (SSA) provides shared, prospective, persistent evaluation infrastructure for social simulation, benchmarking simulations against the real future through recurring real-world data releases.",
+        "year": 2026,
+        "topic": "discovery",
+        "venue": "preprint",
+        "authors": "Chance Jiajie Li*, Xuan Liu*, Haoyang Shang*, Xinkai Zou, Zhenze Mo, Cedegao E. Zhang, Hang Jiang",
+        "correspondingAuthors": [],
+        "paper": "https://doi.org/10.5281/zenodo.23140107",
+        "code": "https://github.com/Social-Atoms/social-sim-arena",
+        "dataset": "",
+        "project": "https://social-simulation-arena.com/"
+      },
+      {
+        "year": 2025,
+        "topic": "hci",
+        "venue": "CSCW 2025 Poster",
+        "title": "The Social Dynamics of Voice Cloning: Trust, Privacy, and Ethical Tensions When Sharing Your AI Voice Replica",
+        "tldr": "Sharing an AI voice replica creates tensions around identity, trust, privacy, and control over what it says and who can access its conversations.",
+        "authors": "Jiachen Du, Hanyu Huang, Xinkai Zou, Shuzi Yin, Bingjie Gao, Xinyi Fu",
+        "correspondingAuthors": [
+          "Xinyi Fu"
+        ],
+        "paper": "https://dl.acm.org/doi/10.1145/3715070.3749244"
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "name": "Social Simulation Arena",
+        "url": "https://social-simulation-arena.com/#leaderboard",
+        "description": "A prospective benchmark for social simulation.",
+        "project": "https://social-simulation-arena.com/",
+        "paper": "https://doi.org/10.5281/zenodo.23140107",
+        "code": "https://github.com/Social-Atoms/social-sim-arena",
+        "post": "",
+        "starsRepo": ""
+      },
+      {
+        "name": "REEF",
+        "url": "https://github.com/Human-Agent-Society/reef",
+        "description": "RSI infrastructure.",
+        "code": "",
+        "post": "",
+        "starsRepo": "Human-Agent-Society/reef"
+      },
+      {
+        "name": "Hawky",
+        "url": "https://www.hawky.live/",
+        "description": "Personal agent.",
+        "code": "https://github.com/hao-ai-lab/hawky",
+        "post": "https://x.com/haoailab/status/2104998028402925644?s=20",
+        "starsRepo": ""
+      },
+      {
+        "name": "FastVideo",
+        "url": "https://github.com/hao-ai-lab/FastVideo",
+        "description": "Video generation infrastructure.",
+        "code": "",
+        "post": "",
+        "starsRepo": "hao-ai-lab/FastVideo"
+      }
+    ]
+  },
+  "blogs": {
+    "items": [
+      {
+        "slug": "follo-ai",
+        "title": "How task management meets AI assistant?",
+        "date": "2026-05-11",
+        "venue": ""
+      },
+      {
+        "slug": "group-behavior-simulation",
+        "title": "Organized Group Behavior Simulation",
+        "date": "2026-04-14",
+        "venue": "COLM 2026"
+      },
+      {
+        "slug": "cloudanobench",
+        "title": "Cloud Anomaly Detection From Logs and Metrics",
+        "date": "2025-08-04",
+        "venue": "COLM 2026 AIMS"
+      }
+    ]
+  },
+  "experience": {
+    "work": [
+      {
+        "when": "2026.06 – 2026.09",
+        "where": "TikTok. Inc",
+        "role": "Software Development Engineer Intern (Infra)"
+      },
+      {
+        "when": "2025.10 – 2026.05",
+        "where": "UCSD Shang Data Lab",
+        "role": "Research Intern"
+      },
+      {
+        "when": "2025.05 – 2025.10",
+        "where": "MIT JTL–Transit Lab",
+        "role": "Research Intern"
+      },
+      {
+        "when": "2024.05 – 2025.06",
+        "where": "Tsinghua University Future Lab",
+        "role": "Research Intern"
+      },
+      {
+        "when": "2023.12 – 2024.05",
+        "where": "Tesla",
+        "role": "Data Scientist Intern"
+      }
+    ],
+    "awards": [
+      {
+        "year": "2024",
+        "title": "Westlake University AI Summer School Full Scholarship"
+      },
+      {
+        "year": "2023",
+        "title": "Tongji University International and Hong Kong–Macao–Taiwan Exchange Scholarship"
+      },
+      {
+        "year": "2021",
+        "title": "Tongji University Undergraduate Outstanding Student Scholarship"
+      },
+      {
+        "year": "2021",
+        "title": "Tongji University Student of the Year"
+      }
+    ],
+    "service": [
+      {
+        "title": "COLM 2026 Reviewer"
+      },
+      {
+        "title": "CUI 2026 Reviewer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{{ $content := os.ReadFile "static/content.json" | transform.Unmarshal }}
+{{ $entry := dict }}
+{{ range $content.blogs.items }}{{ if eq .slug $.File.ContentBaseName }}{{ $entry = . }}{{ end }}{{ end }}
+{{ $title := $entry.title | default .Title }}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Summary | plainify }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <title>{{ $title }} · Jay (Xinkai) Zou</title>
+  <link rel="icon" type="image/png" href="/assets/j-favicon.png">
+  <link rel="stylesheet" href="/style.css?v=site-2">
+  <link rel="stylesheet" href="/blog.css?v=site-2">
+  <script src="/app.js?v=site-2" defer></script>
+  <script src="/blog.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header>
+      <a class="wordmark" href="/#about">Jay (Xinkai) Zou</a>
+      <nav aria-label="Main navigation">
+        <a href="/#about">About</a><span aria-hidden="true">/</span>
+        <a href="/#research">Research</a><span aria-hidden="true">/</span>
+        <a href="/#projects">Projects</a><span aria-hidden="true">/</span>
+        <a href="/#blogs" aria-current="page">Blogs</a><span aria-hidden="true">/</span>
+        <a href="/#experience">Experience</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <article class="blog-article" aria-labelledby="article-title" data-blog-slug="{{ .File.ContentBaseName }}">
+        <header class="blog-heading">
+          <a class="back-link" href="/#blogs">← All blogs</a>
+          <h1 id="article-title">{{ $title }}</h1>
+          <time datetime="{{ $entry.date | default (.Date.Format "2006-01-02") }}">{{ ($entry.date | default (.Date.Format "2006-01-02")) | replaceRE "-" "." }}</time>
+          {{ with $entry.venue }}<span class="blog-venue">{{ . }}</span>{{ end }}
+        </header>
+        {{ if and .Params.ShowToc (strings.Contains .TableOfContents "<li>") }}
+        <details class="blog-toc">
+          <summary>Contents</summary>
+          {{ .TableOfContents }}
+        </details>
+        {{ end }}
+        <div class="blog-content">{{ .Content }}</div>
+        <div class="blog-end"><a href="/#blogs">← All blogs</a><a href="#article-title">Back to top ↑</a></div>
+      </article>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+</html>
