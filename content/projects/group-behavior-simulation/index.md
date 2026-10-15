@@ -17,6 +17,13 @@ TocOpen: true
 
 
 ---
+<figure class="conference-poster">
+  <a href="grove-colm-2026-poster.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the GROVE COLM 2026 poster PDF">
+    <img src="grove-colm-2026-poster.png" alt="GROVE poster: Simulating Organized Group Behavior" width="1800" height="926" loading="lazy">
+  </a>
+  <figcaption>Poster presented in COLM 2026, San Francisco</figcaption>
+</figure>
+
 TL;DR: 
 1. We propose the task of simulating organized group behaviors: Given a group facing a particular situation, the task predicts the decision it would make.
 2. We also present **GROVE**, a benchmark for this task collected from the real-world data (Wikipedia and TechCrunch) containing 44 entities. 

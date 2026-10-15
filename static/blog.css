@@ -13,6 +13,9 @@
 .blog-content li>p{margin:0 0 9px}
 .blog-content hr{border:0;margin:28px 0}
 .blog-content img{display:block;max-width:100%;height:auto;margin:22px auto}
+.conference-poster{margin:0 0 28px}
+.conference-poster img{width:100%;margin:0 0 10px}
+.conference-poster figcaption{font-size:11px;color:var(--muted);line-height:1.8}
 .blog-content sup{font-size:.75em;line-height:0}
 .blog-content pre{max-width:100%;overflow-x:auto;background:#f2f4ee;border:1px solid var(--rule);padding:16px 18px;font:11px/1.8 var(--mono);margin:20px 0 26px;tab-size:2}
 .blog-content code{font-family:var(--mono)}
