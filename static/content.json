@@ -261,5 +261,102 @@
         "title": "CUI 2026 Reviewer"
       }
     ]
+  },
+  "socialsim": {
+    "evaluation": [
+      {
+        "label": "Social Simulation Arena",
+        "paper": "https://doi.org/10.5281/zenodo.23140107",
+        "description": "Test predictions against the real future.",
+        "category": "Social Simulation"
+      },
+      {
+        "label": "Group Behavior Simulation",
+        "paper": "https://arxiv.org/abs/2604.09874",
+        "category": "Groups"
+      }
+    ],
+    "branches": [
+      {
+        "question": "How do individuals behave?",
+        "papers": [
+          {
+            "label": "Kairotask",
+            "paper": "https://dl.acm.org/doi/10.1145/3772363.3798333"
+          },
+          {
+            "label": "Circadia",
+            "paper": "https://dl.acm.org/doi/10.1145/3714394.3754418"
+          },
+          {
+            "label": "TaskWise",
+            "paper": "https://dl.acm.org/doi/10.1145/3714394.3754433"
+          },
+          {
+            "label": "Voice Cloning",
+            "paper": "https://dl.acm.org/doi/10.1145/3715070.3749244"
+          }
+        ],
+        "label": "Individuals",
+        "description": "Understanding people through human–agent interaction."
+      },
+      {
+        "question": "How do organizations behave?",
+        "papers": [
+          {
+            "label": "Group Behavior Simulation",
+            "paper": "https://arxiv.org/abs/2604.09874"
+          }
+        ],
+        "label": "Groups",
+        "description": "Modeling how groups decide in new situations."
+      },
+      {
+        "question": "How can simulations evolve?",
+        "papers": [
+          {
+            "label": "Social Simulation Gym",
+            "title": "Social Simulation Gym"
+          }
+        ],
+        "label": "Evolve",
+        "description": "Building environments to test and improve simulations."
+      }
+    ],
+    "headline": "I study social simulation from individual, group and society",
+    "intro": ""
+  },
+  "modeling": {
+    "headline": "Preserve knowledge. Test capability.",
+    "intro": "I work on adapting models without losing useful knowledge, reducing their computational cost, and testing what they can actually do.",
+    "methods": [
+      {
+        "category": "Training",
+        "label": "ExpertCondenser",
+        "paper": "https://arxiv.org/abs/2604.23036",
+        "description": "Preserve knowledge from rarely activated experts during MoE fine-tuning."
+      },
+      {
+        "category": "Pruning",
+        "label": "Less is MoE",
+        "paper": "https://arxiv.org/abs/2606.05538",
+        "description": "Prune dimensions within experts to reduce memory use and speed up inference."
+      }
+    ],
+    "evaluation": [
+      {
+        "category": "Contextual reasoning",
+        "label": "CloudAnoBench",
+        "paper": "https://arxiv.org/abs/2508.01844v2",
+        "description": "Can a model combine logs and metrics to detect anomalies in context?"
+      },
+      {
+        "category": "Scientific discovery",
+        "label": "SciLaws-Bench",
+        "paper": "https://arxiv.org/pdf/2609.01552",
+        "description": "Can a model discover valid scientific laws, including new variants of known equations?"
+      }
+    ],
+    "heading": "Language Models"
   }
 }

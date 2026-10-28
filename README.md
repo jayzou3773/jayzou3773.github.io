@@ -10,7 +10,10 @@ Minimal personal website for Jay (Xinkai) Zou, built with Hugo and custom templa
 - The old About/Publications Markdown is retained as historical source; it is not used by the new homepage.
 - The photo and J favicon are in `static/assets/`.
 - Research groups start collapsed. Each paper has an independently expandable TL;DR.
-- This is a read-only static site: there is no browser editor, save API, or Python backend. Edit the source files to update content.
+- `Research` (`/#research`) combines the Social Simulation roadmap and Language Models. `Publications` (`/#publications`) is the full paper list.
+- `/socialsim/` opens Research; `/modeling/` and `/#modeling` open the Language Models section. The prior hash links still work.
+- `socialsim` and `modeling` in `static/content.json` define headings, short paper labels, and references. The full publication list supplies titles and venue data. Research uses shortened HCI venue labels; Publications retains the full Poster labels.
+- The published website is static. The optional local editor runs separately on loopback and is never included in the Hugo output.
 
 ## Local development
 
@@ -18,11 +21,21 @@ Minimal personal website for Jay (Xinkai) Zou, built with Hugo and custom templa
 hugo server --buildFuture
 ```
 
-Open http://localhost:1313. Production build:
+Open http://localhost:1313. For editing in the browser, keep Hugo running and start a second terminal:
 
 ```bash
-hugo --minify --buildFuture --environment production
-python3 scripts/check_site.py public
+python3 scripts/editor_server.py
+```
+
+The default preview has no edit button. To enable local editing, open http://127.0.0.1:1314/?edit=1#research and click **编辑内容**. Change fields, inspect the live preview, and click **保存到项目**. This writes `static/content.json` and saves a prior copy in ignored `.local-editor/backups/`. The editor changes existing items and fields; add or remove entries in the source JSON. Publication URL changes are propagated to research references. Unsaved edits can be undone or downloaded as a JSON draft. Concurrent source changes are rejected instead of overwritten.
+
+The editor binds only to 127.0.0.1. Writes require the same origin and a session token. It does not push or deploy. Verify the save service with `python3 scripts/test_editor_server.py`.
+
+Production build (use a separate destination while Hugo's preview is running):
+
+```bash
+hugo --minify --buildFuture --environment production --destination /tmp/personal-site-production
+python3 scripts/check_site.py /tmp/personal-site-production
 ```
 
 ## Deployment

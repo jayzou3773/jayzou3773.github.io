@@ -38,7 +38,7 @@ for blog in data["blogs"]["items"]:
     routes.append(f"blogs/{slug}/index.html")
     alias = Page((root / f"projects/{slug}/index.html").read_text())
     assert any(f"/blogs/{slug}/" in value for value in alias.redirects)
-for path, target in [("about", "about"), ("publications", "research"), ("projects", "blogs"), ("blogs", "blogs"), ("search", "about")]:
+for path, target in [("about", "about"), ("publications", "publications"), ("projects", "blogs"), ("blogs", "blogs"), ("search", "about")]:
     alias = Page((root / path / "index.html").read_text())
     assert any(f"/#{target}" in value for value in alias.redirects), path
 

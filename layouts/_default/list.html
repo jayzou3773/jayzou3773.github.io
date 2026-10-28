@@ -1,4 +1,4 @@
 {{ $route := "about" }}
-{{ if eq .Section "publications" }}{{ $route = "research" }}{{ end }}
+{{ if eq .Section "publications" }}{{ $route = "publications" }}{{ end }}
 {{ if in (slice "projects" "blogs") .Section }}{{ $route = "blogs" }}{{ end }}
 {{ partial "site-redirect.html" $route }}

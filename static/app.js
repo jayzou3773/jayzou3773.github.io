@@ -9,10 +9,32 @@
       return match ? link(match[2],match[1]) : escape(part);
     }).join('');
   }
-  const names = {about:'About',research:'Research',projects:'Projects',blogs:'Blogs',experience:'Experience'};
+  const names = {about:'About',research:'Research',publications:'Publications',projects:'Projects',blogs:'Blogs',experience:'Experience'};
   const groups = [{id:'efficient',title:'Efficient AI'},{id:'discovery',title:'AI for Simulation'},{id:'hci',title:'Early days: HCI (penetrative AI)'}];
   const collapsedGroups = new Set(groups.map(group => group.id));
   const expandedSummaries = new Set();
+  function researchPaper(item, data, className = '') {
+    const paper = item.paper ? data.research.publications.find(p => p.paper === item.paper) : null;
+    const title = paper?.title || item.title || item.label;
+    const venue = paper ? (paper.venue.toLowerCase() === 'preprint' ? '' : paper.venue.replace(/ Poster$/, '')) : 'ongoing';
+    const label = paper ? '<a href="'+escape(safeURL(paper.paper))+'" target="_blank" rel="noopener noreferrer" title="'+escape(title)+'" aria-label="'+escape(item.label+': '+title)+'">'+escape(item.label)+'</a>' : '<span title="'+escape(title)+'">'+escape(item.label)+'</span>';
+    return '<div class="research-paper '+className+'"><span class="research-paper-name">'+label+'</span>'+(venue ? '<span class="research-venue'+(!paper ? ' is-ongoing' : '')+'">'+escape(venue)+'</span>' : '')+'</div>';
+  }
+  function socialSimulation(data) {
+    const config = data.socialsim;
+    return '<section class="social-roadmap-section" aria-labelledby="social-roadmap-heading"><div class="roadmap-section-heading"><h2 id="social-roadmap-heading">Social Simulation</h2><p class="simulation-statement">'+escape(config.headline)+'</p></div>'+
+      '<div class="roadmap-scroll" tabindex="0" role="region" aria-label="Social simulation: How to Evaluate connects to How to Build, with Individuals, Organizations, and Evolve branches."><div class="social-roadmap">'+
+      '<svg class="roadmap-lines" viewBox="0 0 732 470" preserveAspectRatio="none" aria-hidden="true"><path class="roadmap-grid" d="M220 86 H732 M32 200 H732 M220 310 H732 M220 388 H732"/><path class="roadmap-road" d="M12 36 V244 M160 36 H196 V114 H208 M196 36 H208 M160 244 H196 V412 M196 244 H208 M196 334 H208 M196 412 H208"/><circle class="roadmap-stop" cx="12" cy="36" r="5"/><circle class="roadmap-stop" cx="12" cy="244" r="5"/></svg>'+
+      '<div class="roadmap-evaluation"><h3>How to Evaluate</h3><ul class="roadmap-evaluation-groups">'+config.evaluation.map(item=>'<li><h4>'+escape(item.category)+'</h4>'+researchPaper(item,data)+'</li>').join('')+'</ul></div><h3 class="roadmap-building">How to Build</h3><ul class="roadmap-branches">'+
+      config.branches.map((branch,index)=>'<li class="roadmap-branch roadmap-branch-'+index+'"><h4>'+escape(branch.label)+'</h4><div class="roadmap-papers">'+branch.papers.map(item=>researchPaper(item,data)).join('')+'</div></li>').join('')+
+      '</ul></div></div></section>';
+  }
+  function modeling(data) {
+    const config = data.modeling;
+    return '<section class="language-models modeling-direction" id="language-models" aria-labelledby="language-models-heading"><h2 id="language-models-heading">'+escape(config.heading)+'</h2><ul class="model-map">'+
+      config.methods.map(item=>'<li class="model-map-row"><h3>'+escape(item.category)+'</h3><div class="model-map-papers">'+researchPaper(item,data)+'</div></li>').join('')+
+      '<li class="model-map-row"><h3>Evaluation</h3><div class="model-map-papers">'+config.evaluation.map(item=>researchPaper(item,data)).join('')+'</div></li></ul></section>';
+  }
   function publication(item, index) {
     const id = 'paper-summary-'+index;
     const expanded = expandedSummaries.has(item.paper);
@@ -34,14 +56,15 @@
     if (!document.querySelector('.view')) return;
     const route = location.hash.slice(1);
     if (route === 'main') return;
-    const current = names[route] ? route : 'about';
+    const current = ['socialsim','modeling','language-models'].includes(route) ? 'research' : names[route] ? route : 'about';
     for (const view of document.querySelectorAll('.view')) view.hidden = view.id !== current;
     for (const anchor of document.querySelectorAll('header nav a')) {
       if (anchor.hash === '#'+current) anchor.setAttribute('aria-current','page');
       else anchor.removeAttribute('aria-current');
     }
     document.title = (site.data?.profile.name || 'Jay (Xinkai) Zou')+' · '+names[current];
-    window.scrollTo({top:0,behavior:'instant'});
+    if (route === 'modeling' || route === 'language-models') document.getElementById('language-models')?.scrollIntoView();
+    else window.scrollTo({top:0,behavior:'instant'});
   }
   function render() {
     const data = site.data, profile = data.profile;
@@ -51,10 +74,11 @@
       .filter(([key]) => profile[key]).map(([key,label]) => link(profile[key],label)).join('');
     if (document.querySelector('#about')) {
       document.querySelector('#about').innerHTML = '<div class="bio"><img class="portrait" src="'+escape(safeURL(data.about.portrait))+'" width="108" height="144" alt="Jay’s photo">'+data.about.paragraphs.map(p=>'<p>'+inline(p)+'</p>').join('')+'</div><p class="email">Email: '+link('mailto:'+profile.email,profile.email,false)+'</p>';
-      document.querySelector('#research').innerHTML = '<h1>Research</h1><p class="author-legend"><span><sup>*</sup> Equal contribution</span><span><sup>†</sup> Corresponding authors</span></p><div id="publication-list">'+groups.map(group =>
+      document.querySelector('#publications').innerHTML = '<h1>Publications</h1><p class="author-legend"><span><sup>*</sup> Equal contribution</span><span><sup>†</sup> Corresponding authors</span></p><div id="publication-list">'+groups.map(group =>
         '<section class="research-group" aria-labelledby="research-'+group.id+'"><h2 id="research-'+group.id+'"><button type="button" class="group-toggle" data-group="'+group.id+'" aria-expanded="'+!collapsedGroups.has(group.id)+'" aria-controls="papers-'+group.id+'">'+group.title+' <span class="toggle-hint">[click to '+(collapsedGroups.has(group.id) ? 'show' : 'hide')+']</span></button></h2><div id="papers-'+group.id+'"'+(collapsedGroups.has(group.id) ? ' hidden' : '')+'>'+
         data.research.publications.map((item,index)=>item.topic===group.id ? publication(item,index) : '').join('')+'</div></section>'
       ).join('')+'</div>';
+      document.querySelector('#research').innerHTML = '<header class="research-introduction"><h1>Research</h1></header>'+socialSimulation(data)+modeling(data);
       document.querySelector('#projects').innerHTML = '<h1>Projects</h1><ul class="project-list">'+data.projects.items.map(item =>
         '<li><div>'+link(item.url,item.name)+' <span class="secondary-links">'+['project','paper','code','post'].filter(key=>item[key]).map(key=>'['+link(item[key],key)+']').join(' ')+'</span>'+
         (item.starsRepo ? '<a class="stars" href="https://github.com/'+escape(item.starsRepo)+'/stargazers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/stars/'+escape(item.starsRepo)+'?style=social" alt="'+escape(item.name)+' GitHub stars" height="20" loading="lazy"></a>' : '')+
@@ -89,6 +113,7 @@
     render();
   };
   window.addEventListener('hashchange',showView);
+  document.addEventListener('site-content-preview', event => { site.data = event.detail; render(); });
   document.addEventListener('click',event=>{
     const toggle = event.target.closest('.group-toggle,.tldr-toggle');
     if (toggle) {
